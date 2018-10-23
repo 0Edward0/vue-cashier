@@ -1,0 +1,4 @@
+<echartComponent v-if="loadAllProfix" :echartStyle="echartStyle" :titleText="allProfixTitle"
+                           :toolTipFormat="allProfixToolTip" :options="allProfixOptions"
+                           :seriesName="allProfixSeriesName" :optionsData="allProfixOptionsData"
+                           @currentEchartClick="allProfixEchartClick"></echartComponent>

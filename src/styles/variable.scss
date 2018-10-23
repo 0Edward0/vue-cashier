@@ -1,0 +1,23 @@
+$Blue:#409EFF;
+$Success:#67C23A;
+$Danger:#F56C6C;
+$Warning:#E6A23C;
+$Info:#909399;
+
+$blank: #000000;
+$white: #ffffff;
+$red:#ff0000;
+$yellow:#edff00;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$panGreen: #30B08F;
+$gray:#D3DCE6;
+$huise:#EAECEF;
+//sidebar
+$menuBg:#304156;
+$subMenuBg:#1f2d3d;
+$menuHover:#001528;
+
+@mixin border_{
+  border:0px solid $blank;
+}
